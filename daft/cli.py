@@ -74,7 +74,7 @@ def create_parser():
     g.add_argument(
         "--bottleneck_factor",
         type=float,
-        default=4.7,
+        default=7.0,
         help="Reduction factor in a Film-based model. Default: %(default)s",
     )
     g.add_argument(
