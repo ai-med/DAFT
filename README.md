@@ -1,6 +1,7 @@
 # Combining 3D Image and Tabular Data via the Dynamic Affine Feature Map Transform
 
-[![Paper](https://img.shields.io/badge/arXiv-2107.05990-b31b1b)](https://arxiv.org/abs/2107.05990)
+[![Preprint](https://img.shields.io/badge/arXiv-2107.05990-b31b1b)](https://arxiv.org/abs/2107.05990)
+[![Paper](https://img.shields.io/static/v1?label=DOI&message=10.1007%2f978-3-030-87240-3_66&color=3a7ebb)](https://dx.doi.org/10.1007/978-3-030-87240-3_66)
 [![License](https://img.shields.io/badge/license-GPLv3-blue.svg)](LICENSE)
 
 This repository contains the code to the paper "Combining 3D Image and Tabular Data via the Dynamic Affine Feature Map Transform."
@@ -11,8 +12,10 @@ If you are using this code, please cite:
   title     = {{Combining 3D Image and Tabular Data via the Dynamic Affine Feature Map Transform}},
   author    = {P{\"{o}}lsterl, Sebastian and Wolf, Tom Nuno and Wachinger, Christian},
   booktitle = {International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  pages     = {688--698},
   year      = {2021},
   url       = {https://arxiv.org/abs/2107.05990},
+  doi       = {10.1007/978-3-030-87240-3_66},
 }
 ```
 
