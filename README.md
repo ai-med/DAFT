@@ -6,7 +6,18 @@
 
 This repository contains the code to the paper "Combining 3D Image and Tabular Data via the Dynamic Affine Feature Map Transform."
 If you are using this code, please cite:
-
+```
+@article{Wolf2022-daft,
+  title = {DAFT: A Universal Module to Interweave Tabular Data and 3D Images in CNNs},
+  journal = {NeuroImage},
+  pages = {119505},
+  year = {2022},
+  issn = {1053-8119},
+  doi = {https://doi.org/10.1016/j.neuroimage.2022.119505},
+  url = {https://www.sciencedirect.com/science/article/pii/S1053811922006218},
+  author = {Tom Nuno Wolf and Sebastian Pölsterl and Christian Wachinger},
+```
+and
 ```
 @inproceedings(Poelsterl2021-daft,
   title     = {{Combining 3D Image and Tabular Data via the Dynamic Affine Feature Map Transform}},
