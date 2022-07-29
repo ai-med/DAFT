@@ -141,7 +141,7 @@ def get_metrics(model: Module, data_loader: DataLoader, train_y: np.ndarray) -> 
     times = np.quantile(y_all["time"][y_all["event"]], q / 100.0)
 
     auc_t, auc = cumulative_dynamic_auc(train_y, test_y, logits, times=times)
-    data = pd.Series(dict(zip(map(lambda x: f"AUC({int(x)})", q), auc_t)))
+    data = pd.Series(dict(zip(map(lambda x: f"AUC({int(x)})", q), auc_t)))  # noqa: C417
     data.loc["iAUC"] = auc
 
     cindex_ipcw = concordance_index_ipcw(train_y, test_y, logits)
