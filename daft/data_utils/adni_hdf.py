@@ -139,7 +139,7 @@ class HDF5Dataset(Dataset):
 
                 data.append(self._get_data(g[roi][dataset_name]))
 
-            meta = self._get_meta_data(hf["stats"][roi][dataset_name])
+            meta = {}
 
         self.data = data
         self.targets = targets
